@@ -24,3 +24,6 @@ body,
     display: flex;
     align-items: center;
 }
+.el-cascader-menu__wrap{
+     height: 250px;
+}
