@@ -10,6 +10,7 @@ import Calte from '../components/goods/Calte.vue'
 import Params from '../components/goods/Params.vue'
 import List from '../components/goods/List.vue'
 import Add from '../components/goods/Add.vue'
+import Orders from '../components/order/Order.vue'
 
 Vue.use(VueRouter)
 Vue.use(Rights)
@@ -72,6 +73,11 @@ const router = new VueRouter({
           path: '/goods/add',
           name: 'Add',
           component: Add,
+        },
+        {
+          path: '/orders',
+          name: 'Orders',
+          component: Orders,
         }
 
       ]
